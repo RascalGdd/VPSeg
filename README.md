@@ -1,5 +1,6 @@
 # Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes (CVPR2024)
 > [Paper](https://arxiv.org/abs/2304.11677)
+> 
 > Authors:
 > [Diandian GUo](), 
 > [Deng-Ping Fan](https://dengpingfan.github.io/),
