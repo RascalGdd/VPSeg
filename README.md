@@ -13,7 +13,7 @@ The estimation of implicit cross-frame correspondences and the high computationa
 Prior works utilize keyframes, feature propagation, or cross-frame attention to address these issues.
 By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different tasks are shown in the following figure.
 <p align="center">
-    <img src="./figs/intro_new.png" width="520" height="475"/> <br />
+    <img src="./figs/git_compare.png" width="820" height="475"/> <br />
     <em> 
     Figure 1: Illustration of different counting tasks. Top left: Generic Object Counting (GOC), which counts objects of various classes in natural scenes. Top right: Dense Object Counting (DOC), which counts objects of a foreground class in scenes packed with instances. Down: Indiscernible Object Counting (IOC), which counts objects of a foreground class in indiscernible scenes. Can you find all fishes in the given examples? For GOC, DOC, and IOC, the images shown are from PASCAL VOC, ShanghaiTech, and the new IOCfish5K dataset, respectively.
     </em>
