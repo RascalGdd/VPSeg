@@ -11,7 +11,7 @@
 ## 1. Vanishing-Point Guided
 The estimation of implicit cross-frame correspondences and the high computational cost have long been major challenges in video semantic segmentation (VSS) for driving scenes. 
 Prior works utilize keyframes, feature propagation, or cross-frame attention to address these issues.
-By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different tasks are shown in the following figure.
+By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different SOTA methods are shown in the following figure.
 <p align="center">
     <img src="./figs/git_compare.png" width="960" height="475"/> <br />
     <em> 
@@ -19,5 +19,8 @@ By contrast, we are the first to harness vanishing point (VP) priors for more ef
     </em>
 </p>
 
-Due to a lack of appropriate IOC datasets, we present a large-scale dataset IOCfish5K which contains a total of 5,637 high-resolution images and 659,024 annotated center points. Underwater scenes contain many indiscernible objects (Sea Horse, Reef Stonefish, Lionfish, and Leafy Sea Dragon) because of limited visibility and active mimicry. Hence, we focus on underwater scenes for our dataset. 
-
+### 5.2. Visualization Results
+Visualization of detail attention maps O with N motion attention layers in CMA. As N increases, the detail attention map interacts more heavily with the dynamic features, and the weights gradually decrease in closer parts of the scene or on simple semantic categories. The highlighted distant regions near the VP suggest that the final predictions P_f are primarily based on the detail-based predictions P_d and not on P_c for these regions. The VP proximity map serves as a positional prior and assists the model in pinpointing the locations of these distant regions.
+<p align="center">
+    <img src="./figs/git_vis.png" /> <br />
+</p>
