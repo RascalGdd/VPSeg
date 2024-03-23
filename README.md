@@ -9,7 +9,9 @@
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 >
 > ## 1. Vanishing-Point Guided
-The existing object counting tasks include: Generic Object Counting (GOC), and Dense Object Counting (DOC). In this paper, we propose a new challenge termed "Indiscernible Object Counting (IOC)", which focuses on counting foreground objects in indiscernible scenes. The comparisons between different tasks are shown in the following figure.
+The estimation of implicit cross-frame correspondences and the high computational cost have long been major challenges in video semantic segmentation (VSS) for driving scenes. 
+Prior works utilize keyframes, feature propagation, or cross-frame attention to address these issues.
+By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different tasks are shown in the following figure.
 <p align="center">
     <img src="./figs/intro_new.png" width="520" height="475"/> <br />
     <em> 
