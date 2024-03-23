@@ -44,3 +44,15 @@ The results for various methods are shown below.
 | MAN              |   CVPR'22   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |
 | VPSeg (Ours)     |   ECCV'22   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |
 | VPSeg (Ours)     |   CVPR'23   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |
+
+## 4. Citations
+```bibtex
+@inproceedings{guo2024vpseg,
+    title={Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes},
+    author={Diandian Guo and Fan, Deng-Ping and Tongyu Lu and Sakaridis, Christos and Van Gool, Luc},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision and Patern Recognition (CVPR)},
+    year={2024}
+}
+```
+## 5. Contact
+- Diandian Guo, guodiandian1998@gmail.com
