@@ -27,7 +27,7 @@ Visualization of detail attention maps O with N motion attention layers in CMA. 
 
 ## 3. Quantitative Results
 The results for various methods are shown below.
-| Method           | Publication | Val: MAE | Val: MSE | Val: NAE | Test: MAE | Test:MSE | Test:NAE |
+| Method           | Publication | Backbone | Params(M)| mIoU (A.)| mIoU (C.) | miIoU(A.)| miIoU(C.)|
 |------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|
 | DeepLabv3+       |   CVPR'16   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |
 | PSPNet           |   CVPR'18   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |
