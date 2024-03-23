@@ -8,7 +8,7 @@
 > [Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), 
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 >
-> ## 1. Vanishing-Point Guided
+## 1. Vanishing-Point Guided
 The estimation of implicit cross-frame correspondences and the high computational cost have long been major challenges in video semantic segmentation (VSS) for driving scenes. 
 Prior works utilize keyframes, feature propagation, or cross-frame attention to address these issues.
 By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different tasks are shown in the following figure.
