@@ -19,7 +19,7 @@ By contrast, we are the first to harness vanishing point (VP) priors for more ef
     </em>
 </p>
 
-### 5.2. Visualization Results
+## 2. Visualization
 Visualization of detail attention maps O with N motion attention layers in CMA. As N increases, the detail attention map interacts more heavily with the dynamic features, and the weights gradually decrease in closer parts of the scene or on simple semantic categories. The highlighted distant regions near the VP suggest that the final predictions P_f are primarily based on the detail-based predictions P_d and not on P_c for these regions. The VP proximity map serves as a positional prior and assists the model in pinpointing the locations of these distant regions.
 <p align="center">
     <img src="./figs/git_vis2.png" /> <br />
