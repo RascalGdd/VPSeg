@@ -2,9 +2,9 @@
 > [Paper](https://arxiv.org/pdf/2401.15261.pdf)
 > 
 > Authors:
-> [Diandian Guo](), 
+> [Diandian Guo](https://www.linkedin.com/in/diandian-guo-062000228/), 
 > [Deng-Ping Fan](https://dengpingfan.github.io/),
-> [Tongyu Lu](),
+> [Tongyu Lu](https://lucainiaoge.github.io/),
 > [Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), 
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 >
