@@ -29,20 +29,20 @@ Visualization of detail attention maps O with N motion attention layers in CMA. 
 The results for various methods are shown below.
 | Method           | Publication | Backbone | Params(M)| mIoU (A.)| mIoU (C.) | miIoU(A.)| miIoU(C.)| mIA-IoU  |    VSS   |
 |------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|:--------:|
-| DeepLabv3+       |   ECCV'18   | ResNet-101  |  62.7   |  72.79  |  79.09  |  -----   |   ----   |   ----   |  &cross; |
-| PSPNet           |   CVPR'17   | ResNet-101  |  68.0   |  72.26  |  78.34  |  -----   |   ----   |   ----   |  &cross; |
-| OCRNet           |   ECCV'20   | ResNet-101  |  55.6   |  70.39  |  80.09  |  -----   |   ----   |   ----   |  &cross; |
-| SeaFormer        |   ICLR'23   | SeaFormer-L |  14.0   |  70.09  |  77.70  |  -----   |   ----   |   ----   |  &cross; |
-| SegFormer        |   NIPS'21   |   MiT-B1    |  13.7   |  70.25  |  78.56  |  -----   |   ----   |   ----   |  &cross; |
-| SegFormer        |   NIPS'21   |   MiT-B3    |  44.6   |  75.38  |  81.32  |  -----   |   ----   |   ----   |  &cross; |
-| Video K-Net      |   CVPR'22   |   Swin-B    |  104.6  |  69.03  |  76.62  |  -----   |   ----   |   ----   |  &check; |
-| ETC              |   ECCV'20   | ResNet-101  |  68,1   |  71.45  |  79.50  |  -----   |   ----   |   ----   |  &check; |
-| TCB              |   CVPR'21   | ResNet-101  |  72.5   |  70.56  |  78.70  |  -----   |   ----   |   ----   |  &check; |
-| NetWarp          |   ICCV'17   |   PSPNet    |  90.6   |  73.71  |  80.60  |  -----   |   ----   |   ----   |  &check; |
-| CFFM             |   CVPR'22   |   MiT-B3    |  49.6   |  75.47  |  81.44  |  -----   |   ----   |   ----   |  &check; |
-| MRCFA            |   ECCV'22   |   MiT-B3    |  48.2   |  75.63  |  81.31  |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  14.9   |  72.86  |  79.56  |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  46.8   |  77.48  |  82.46  |  -----   |   ----   |   ----   |  &check; |
+| DeepLabv3+       |   ECCV'18   | ResNet-101  |  62.7   |  72.79  |  79.09  |  43.14  |   56.89  |   ----   |  &cross; |
+| PSPNet           |   CVPR'17   | ResNet-101  |  68.0   |  72.26  |  78.34  |  40.95  |   56.78  |   ----   |  &cross; |
+| OCRNet           |   ECCV'20   | ResNet-101  |  55.6   |  70.39  |  80.09  |  43.36  |   59.55  |   ----   |  &cross; |
+| SeaFormer        |   ICLR'23   | SeaFormer-L |  14.0   |  70.09  |  77.70  |  40.41  |   56.96  |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B1    |  13.7   |  70.25  |  78.56  |  41.14  |   58.25  |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B3    |  44.6   |  75.38  |  81.32  |  46.51  |   60.01  |   ----   |  &cross; |
+| Video K-Net      |   CVPR'22   |   Swin-B    |  104.6  |  69.03  |  76.62  |  39.33  |   56.02  |   ----   |  &check; |
+| ETC              |   ECCV'20   | ResNet-101  |  68,1   |  71.45  |  79.50  |  42.28  |   58.35  |   ----   |  &check; |
+| TCB              |   CVPR'21   | ResNet-101  |  72.5   |  70.56  |  78.70  |  41.76  |   57.84  |   ----   |  &check; |
+| NetWarp          |   ICCV'17   |   PSPNet    |  90.6   |  73.71  |  80.60  |  45.59  |   59.63  |   ----   |  &check; |
+| CFFM             |   CVPR'22   |   MiT-B3    |  49.6   |  75.47  |  81.44  |  47.31  |   60.09  |   ----   |  &check; |
+| MRCFA            |   ECCV'22   |   MiT-B3    |  48.2   |  75.63  |  81.31  |  46.28  |   60.56  |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  14.9   |  72.86  |  79.56  |  43.42  |   59.53  |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  46.8   |  77.48  |  82.46  |  49.42  |   61.79  |   ----   |  &check; |
 
 ## 4. Citations
 ```bibtex
