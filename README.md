@@ -29,15 +29,15 @@ Visualization of detail attention maps O with N motion attention layers in CMA. 
 The results for various methods are shown below.
 | Method           | Publication | Backbone | Params(M)| mIoU (A.)| mIoU (C.) | miIoU(A.)| miIoU(C.)| mIA-IoU  |    VSS   |
 |------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|:--------:|
-| DeepLabv3+       |   ECCV'18   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| PSPNet           |   CVPR'17   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| OCRNet           |   ECCV'20   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| SeaFormer        |   ICLR'23   | SeaFormer-L |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| SegFormer        |   NIPS'21   |   MiT-B1    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| SegFormer        |   NIPS'21   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| Video K-Net      |   CVPR'22   |   Swin-B    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| ETC              |   ECCV'20   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| TCB              |   CVPR'21   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| DeepLabv3+       |   ECCV'18   | ResNet-101  |  62.7   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| PSPNet           |   CVPR'17   | ResNet-101  |  68.0   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| OCRNet           |   ECCV'20   | ResNet-101  |  55.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SeaFormer        |   ICLR'23   | SeaFormer-L |  14.0   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B1    |  13.7   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B3    |  44.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| Video K-Net      |   CVPR'22   |   Swin-B    |  104.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| ETC              |   ECCV'20   | ResNet-101  |  68,1   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| TCB              |   CVPR'21   | ResNet-101  |  72.5   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 | NetWarp          |   ICCV'17   |   PSPNet    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 | CFFM             |   CVPR'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 | MRCFA            |   ECCV'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
