@@ -13,7 +13,7 @@ The estimation of implicit cross-frame correspondences and the high computationa
 Prior works utilize keyframes, feature propagation, or cross-frame attention to address these issues.
 By contrast, we are the first to harness vanishing point (VP) priors for more effective segmentation. The comparisons between different SOTA methods are shown in the following figure.
 <p align="center">
-    <img src="./figs/git_compare.png" width="960" height="475"/> <br />
+    <img src="./figs/git_compare.png" width="960" height="360"/> <br />
     <em> 
     Figure 1: Qualitative comparison on ACDC. The yellow box represents the densely partitioned VP region. Our model produces more accurate results for both distant tiny hard samples near the VP and occluded fast-moving close targets.
     </em>
