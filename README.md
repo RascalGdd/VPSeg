@@ -21,7 +21,7 @@ By contrast, we are the first to harness vanishing point (VP) priors for more ef
 
 |            *DIS-Sample_1*        |             *DIS-Sample_2*        |
 | :------------------------------: | :-------------------------------: |
-| <img src="./gifs/1.gif" alt="gif"/> |  <img src="https://drive.google.com/uc?export=view&id=1Z-esCujQF_uEa_YJjkibc3NUrW4aR_d4" /> |
+| <img src="./gifs/1.gif" width="960" height="475" alt="gif"/> |  <img src="https://drive.google.com/uc?export=view&id=1Z-esCujQF_uEa_YJjkibc3NUrW4aR_d4" /> |
 
 
 ## 2. Visualization
