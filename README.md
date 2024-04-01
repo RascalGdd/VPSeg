@@ -35,14 +35,14 @@ The results for various methods are shown below.
 | SeaFormer        |   ICLR'23   | SeaFormer-L |  14.0   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
 | SegFormer        |   NIPS'21   |   MiT-B1    |  13.7   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
 | SegFormer        |   NIPS'21   |   MiT-B3    |  44.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| Video K-Net      |   CVPR'22   |   Swin-B    |  104.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| Video K-Net      |   CVPR'22   |   Swin-B    |  104.6  |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 | ETC              |   ECCV'20   | ResNet-101  |  68,1   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 | TCB              |   CVPR'21   | ResNet-101  |  72.5   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| NetWarp          |   ICCV'17   |   PSPNet    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| CFFM             |   CVPR'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| MRCFA            |   ECCV'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| NetWarp          |   ICCV'17   |   PSPNet    |  90.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| CFFM             |   CVPR'22   |   MiT-B3    |  49.6   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| MRCFA            |   ECCV'22   |   MiT-B3    |  48.2   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  14.9   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  46.8   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 
 ## 4. Citations
 ```bibtex
