@@ -29,19 +29,20 @@ Visualization of detail attention maps O with N motion attention layers in CMA. 
 The results for various methods are shown below.
 | Method           | Publication | Backbone | Params(M)| mIoU (A.)| mIoU (C.) | miIoU(A.)| miIoU(C.)| mIA-IoU  |    VSS   |
 |------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|:--------:|
-| DeepLabv3+       |   ECCV'18   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| PSPNet           |   CVPR'17   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| OCRNet           |   ECCV'20   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| SeaFormer        |   ICLR'23   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| SegFormer        |   NIPS'21   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
-| Video K-Net      |   CVPR'22   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| ETC              |   ECCV'20   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| TCB              |   CVPR'21   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| NetWarp          |   ICCV'17   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| CFFM             |   CVPR'22   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| MRCFA            |   ECCV'22   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
-| VPSeg (Ours)     |   CVPR'24   |   -----  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| DeepLabv3+       |   ECCV'18   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| PSPNet           |   CVPR'17   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| OCRNet           |   ECCV'20   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SeaFormer        |   ICLR'23   | SeaFormer-L |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B1    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| SegFormer        |   NIPS'21   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &cross; |
+| Video K-Net      |   CVPR'22   |   Swin-B    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| ETC              |   ECCV'20   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| TCB              |   CVPR'21   | ResNet-101  |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| NetWarp          |   ICCV'17   |   PSPNet    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| CFFM             |   CVPR'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| MRCFA            |   ECCV'22   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
+| VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  -----   |   ----   |   -----   |  -----   |   ----   |   ----   |  &check; |
 
 ## 4. Citations
 ```bibtex
