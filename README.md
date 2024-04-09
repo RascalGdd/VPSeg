@@ -1,4 +1,4 @@
-# Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes (CVPR2024)
+# Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes (CVPR2024 Highlight)
 > [Paper](https://arxiv.org/pdf/2401.15261.pdf)
 > 
 > Authors:
