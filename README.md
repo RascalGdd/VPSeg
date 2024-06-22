@@ -2,7 +2,7 @@
 > [Paper](https://arxiv.org/pdf/2401.15261.pdf)
 > 
 > Authors:
-> [Diandian Guo](https://www.linkedin.com/in/diandian-guo-062000228/), 
+> [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=en), 
 > [Deng-Ping Fan](https://dengpingfan.github.io/),
 > [Tongyu Lu](https://lucainiaoge.github.io/),
 > [Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), 
