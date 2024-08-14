@@ -49,7 +49,11 @@ The results for various methods are shown below.
 | VPSeg (Ours)     |   CVPR'24   |   MiT-B1    |  14.9   |  72.86  |  79.56  |  43.42  |   59.53  |  37.96  |  &check; |
 | VPSeg (Ours)     |   CVPR'24   |   MiT-B3    |  46.8   |  77.48  |  82.46  |  49.42  |   61.79  |  41.48  |  &check; |
 
-## 4. Citations
+## 4. Code
+
+As I have signed the non-disclosure agreement (NDA) with ETH and TOYOTA, I'm strictly forbidden to share the code.
+
+## 5. Citations
 ```bibtex
 @inproceedings{guo2024vpseg,
     title={Vanishing-Point-Guided Video Semantic Segmentation of Driving Scenes},
@@ -58,5 +62,5 @@ The results for various methods are shown below.
     year={2024}
 }
 ```
-## 5. Contact
+## 6. Contact
 - Diandian Guo, guodiandian1998@gmail.com
